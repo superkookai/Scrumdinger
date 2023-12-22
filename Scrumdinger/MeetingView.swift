@@ -45,6 +45,7 @@ struct MeetingView: View {
             }
         }
         .padding()
+        .background(Color(Theme.bubblegum.mainColor))
     }
 }
 
