@@ -15,6 +15,8 @@
 		BFDE2AFC2B3543F600AF177F /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE2AFB2B3543F600AF177F /* DailyScrum.swift */; };
 		BFDE2AFE2B3544A200AF177F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE2AFD2B3544A200AF177F /* CardView.swift */; };
 		BFDE2B002B35498600AF177F /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE2AFF2B35498600AF177F /* TrailingIconLabelStyle.swift */; };
+		BFDE2B022B3558F700AF177F /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE2B012B3558F700AF177F /* ScrumsView.swift */; };
+		BFDE2B042B355DC600AF177F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDE2B032B355DC600AF177F /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		BFDE2AFB2B3543F600AF177F /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		BFDE2AFD2B3544A200AF177F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BFDE2AFF2B35498600AF177F /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		BFDE2B012B3558F700AF177F /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		BFDE2B032B355DC600AF177F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,8 @@
 				BFDE2AEA2B35358400AF177F /* ScrumdingerApp.swift */,
 				BFDE2AEC2B35358400AF177F /* MeetingView.swift */,
 				BFDE2AFD2B3544A200AF177F /* CardView.swift */,
-				BFDE2AFF2B35498600AF177F /* TrailingIconLabelStyle.swift */,
+				BFDE2B012B3558F700AF177F /* ScrumsView.swift */,
+				BFDE2B032B355DC600AF177F /* DetailView.swift */,
 				BFDE2AEE2B35358500AF177F /* Assets.xcassets */,
 				BFDE2AF02B35358500AF177F /* Preview Content */,
 			);
@@ -83,6 +88,7 @@
 			children = (
 				BFDE2AF92B35404C00AF177F /* Theme.swift */,
 				BFDE2AFB2B3543F600AF177F /* DailyScrum.swift */,
+				BFDE2AFF2B35498600AF177F /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,8 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFDE2AFC2B3543F600AF177F /* DailyScrum.swift in Sources */,
+				BFDE2B042B355DC600AF177F /* DetailView.swift in Sources */,
 				BFDE2B002B35498600AF177F /* TrailingIconLabelStyle.swift in Sources */,
 				BFDE2AFA2B35404C00AF177F /* Theme.swift in Sources */,
+				BFDE2B022B3558F700AF177F /* ScrumsView.swift in Sources */,
 				BFDE2AED2B35358400AF177F /* MeetingView.swift in Sources */,
 				BFDE2AEB2B35358400AF177F /* ScrumdingerApp.swift in Sources */,
 				BFDE2AFE2B3544A200AF177F /* CardView.swift in Sources */,
