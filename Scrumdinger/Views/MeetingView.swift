@@ -23,8 +23,7 @@ struct MeetingView: View {
                 
                 Spacer()
                 
-                Circle()
-                    .stroke(lineWidth: 24)
+                MeetingTimerView(speakers: scrumTimer.speakers, theme: scrum.theme)
                 
                 Spacer()
                 
